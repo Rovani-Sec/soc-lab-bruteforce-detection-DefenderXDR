@@ -10,8 +10,8 @@ A porta TCP/445 foi identificada como aberta no endpoint Windows.
 
 ## 2. Ataque de Força Bruta de Autenticação
 
-Foram geradas múltiplas tentativas de autenticação SMB malsucedidas
-contra o endpoint Windows.
+Foram geradas múltiplas tentativas de autenticação SMB malsucedidas contra o endpoint Windows.
+
 [Evidência](../screenshots/002-Attack-Kali-SMB.png)
 
 ## 3. Origem do Ataque
