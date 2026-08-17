@@ -1,4 +1,3 @@
-# Análise de Detecção
 
 # Análise de Detecção
 
