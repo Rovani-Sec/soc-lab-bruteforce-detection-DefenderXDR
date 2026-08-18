@@ -214,7 +214,7 @@ Com a consulta validada no Advanced Hunting, foi definida uma lógica de detecç
 
 Critério utilizado
 ```text
-5 ou mais falhas de autenticação
+Threshold: ≥5 falhas de autenticação no mesmo contexto dentro de 2 minutos.
 ```
 
 considerando o mesmo contexto de:
