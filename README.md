@@ -139,7 +139,7 @@ Após identificar o serviço SMB, foram realizadas múltiplas tentativas de aute
 Evidência — Ataque SMB
 
 <img width="1582" height="432" alt="002-Attack-Kali-SMB" src="https://github.com/user-attachments/assets/aac992d6-76e2-45d2-b984-4b6462c13756" />
-![Simulação de ataque SMB a partir do Kali Linux](screenshots/002-Attack-Kali-SMB.png)
+![Simulação de ataque SMB a partir do Kali Linux](docs/screenshots/002-Attack-Kali-SMB.png)
 
 As tentativas foram realizadas de forma controlada com o objetivo de gerar eventos de falha de autenticação no endpoint.
 
