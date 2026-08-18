@@ -121,8 +121,7 @@ Foi utilizado o Nmap para verificar a porta TCP/445.
 Evidência — Enumeração SMB
 
 <img width="952" height="314" alt="001-smb-enumeration-kali" src="https://github.com/user-attachments/assets/3e690c10-bdd7-43cd-a423-9e029ae2dd08" />
-
-![Enumeração SMB utilizando Nmap](screenshots/001-smb-enumeration-kali.png)
+
 
 A enumeração identificou o serviço:
 ```text
