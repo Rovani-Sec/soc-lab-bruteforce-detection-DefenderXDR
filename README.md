@@ -91,14 +91,14 @@ O laboratório utiliza um ambiente virtualizado e isolado para reproduzir a comu
        │
        │ Telemetria
        ▼
-┌─────────────────────────┐
+┌───────────────|
 │ Microsoft Defender XDR  │
 │                         │
 │ Advanced Hunting        │
 │ KQL                     │
 │ Custom Detection        │
 │ Incident Investigation  │
-└─────────────────────────┘
+└───────────────|
 ```
 A descrição detalhada da arquitetura está disponível em:
 
