@@ -229,7 +229,7 @@ Remote IP
 Logon Type
 ```
 
-Esse limitefoi utilizado para diferenciar uma sequência de tentativas de autenticação potencialmente maliciosas de uma falha isolada de login.
+Esse limite foi utilizado para diferenciar uma sequência de tentativas de autenticação potencialmente maliciosas de uma falha isolada de login.
 
 ---
 
@@ -372,11 +372,11 @@ A atividade foi gerada intencionalmente dentro de um laboratório controlado.
 Não foram identificadas evidências de:
 
 ```text
-  .Autenticação bem-sucedida;
-  .Comprometimento do endpoint;
-  .Persistência;
-  .Execução maliciosa após autenticação;
-  .Exfiltração de dados.
+  Autenticação bem-sucedida;
+  Comprometimento do endpoint;
+  Persistência;
+  Execução maliciosa após autenticação;
+  Exfiltração de dados.
 ```
 
 Dessa forma, não foi necessária uma ação de contenção sobre o endpoint.
@@ -473,7 +473,7 @@ Apresenta a lógica de detecção, consultas KQL, threshold, fontes de dados, ev
 
 🛡️ Resposta ao Incidente
 
-[Respota ao Incidente](docs/incident-response.md)
+[Resposta ao Incidente](docs/incident-response.md)
 
 Documenta o processo de investigação, classificação, tomada de decisão e encerramento do incidente.
 
