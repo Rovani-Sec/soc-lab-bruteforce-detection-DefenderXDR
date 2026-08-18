@@ -127,8 +127,6 @@ A atividade identificada foi associada às seguintes técnicas do MITRE ATT&CK:
 
 A atividade apresentou múltiplas tentativas de autenticação contra o endpoint Windows utilizando credenciais incorretas.
 
-[T1110.001 — Password Guessing](https://attack.mitre.org/techniques/T1110/001/)
-
 A simulação envolveu tentativas repetidas de autenticação utilizando senhas incorretas contra a conta alvo.
 
 As técnicas estão relacionadas à tática:
