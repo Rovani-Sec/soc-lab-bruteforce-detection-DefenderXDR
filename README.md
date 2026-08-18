@@ -138,8 +138,7 @@ Após identificar o serviço SMB, foram realizadas múltiplas tentativas de aute
 
 Evidência — Ataque SMB
 
-<img width="1582" height="432" alt="002-Attack-Kali-SMB" src="https://github.com/user-attachments/assets/aac992d6-76e2-45d2-b984-4b6462c13756" />
-![Simulação de ataque SMB a partir do Kali Linux](docs/screenshots/002-Attack-Kali-SMB.png)
+<img width="1582" height="432" alt="002-Attack-Kali-SMB" src="https://github.com/user-attachments/assets/aac992d6-76e2-45d2-b984-4b6462c13756" />
 
 As tentativas foram realizadas de forma controlada com o objetivo de gerar eventos de falha de autenticação no endpoint.
 
@@ -175,7 +174,7 @@ ActionType == "LogonFailed"
 Evidência — Consulta KQL
 
 <img width="1820" height="632" alt="005-KQL-consulta-evento-LogonFailed" src="https://github.com/user-attachments/assets/50ca787d-4456-4859-b575-4638f05c5e54" />
-![Consulta KQL para identificação de falhas de autenticação](screenshots/005-KQL-consulta-evento-LogonFailed.png)
+
 
 Essa etapa permitiu confirmar que as tentativas realizadas durante a simulação estavam sendo registradas pela telemetria do Defender.
 
@@ -203,8 +202,7 @@ FailedAttempts
 ```
 Evidência — Contagem dos eventos
 
-<img width="1842" height="743" alt="006-KQL-contagem-eventos" src="https://github.com/user-attachments/assets/254647f1-eb2c-4230-8142-4a8cb3d92d30" />
-![Contagem das tentativas de autenticação utilizando KQL](screenshots/006-KQL-contagem-eventos.png)
+<img width="1842" height="743" alt="006-KQL-contagem-eventos" src="https://github.com/user-attachments/assets/254647f1-eb2c-4230-8142-4a8cb3d92d30" />
 
 ---
 
@@ -253,7 +251,7 @@ Evidência — Criação da detecção
 
 <img width="1827" height="713" alt="007-detection-defenderXDR" src="https://github.com/user-attachments/assets/8e336cba-0899-4230-bad7-dbc499cf9c3f" />
 
-![Criação da Custom Detection no Microsoft Defender XDR](screenshots/007-detection-defenderXDR.png)
+
 
 A detecção foi configurada para gerar um alerta quando o padrão de múltiplas falhas de autenticação fosse identificado.
 
@@ -275,7 +273,7 @@ Windows Authentication Brute Force Detected
 Evidência — Regra configurada
 
 <img width="1868" height="690" alt="008-rule-custom-windows-bruteforce" src="https://github.com/user-attachments/assets/2ca6ebb4-e51e-47c6-9cc5-eb1a683f7c7f" />
-![Regra Custom Detection para Windows Authentication Brute Force](screenshots/008-rule-custom-windows-bruteforce.png)
+
 
 A configuração da regra permitiu transformar a lógica desenvolvida durante o Hunting em um mecanismo persistente de detecção.
 
@@ -425,7 +423,7 @@ Resolved
 Evidência — Incidente encerrado
 
 <img width="1864" height="444" alt="009-resolved-incident" src="https://github.com/user-attachments/assets/40c21ea9-12c9-4b70-8e05-abaadf0f670c" />
-![Incidente resolvido no Microsoft Defender XDR](screenshots/009-resolved-incident.png)
+
 
 O encerramento representa a conclusão do ciclo de investigação realizado no laboratório.
 
